@@ -16,6 +16,5 @@ The main components of this project are as follows-
  This project is intended to be a companion guide for learners so they can pull the repository and run the code on their machines to see how it works.
  
  
- Thanks,
- Firoz Hossain Chaudhuri
+ Thanks!
   
