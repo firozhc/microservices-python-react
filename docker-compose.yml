@@ -12,18 +12,18 @@ services:
             - db
 
     db:
-        image: mysql:5.7.22
+        image: postgres:'latest’
         restart: always
         environment: 
             MYSQL_DATABASE: admin
             MYSQL_USER: root
-            MYSQL_PASSWORD: root
+            POSTGRES_PASSWORD: root
             MYSQL_ROOT_PASSWORD: root
 
         volumes: 
             - .dbdata:/var/lib/mysql
         ports: 
-            - 33066:3306
+            - 5432:5432
 
        
 
